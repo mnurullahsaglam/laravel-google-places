@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Saglam\LaravelGooglePlaces\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelGooglePlacesCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-google-places';
 
     public $description = 'My command';
 
