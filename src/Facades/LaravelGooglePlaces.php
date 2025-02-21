@@ -11,6 +11,6 @@ class LaravelGooglePlaces extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
-        return \Saglam\LaravelGooglePlaces\LaravelGooglePlaces::class;
+        return 'laravel-google-places';
     }
 }

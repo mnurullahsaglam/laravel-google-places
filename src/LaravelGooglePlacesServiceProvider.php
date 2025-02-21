@@ -18,8 +18,6 @@ class LaravelGooglePlacesServiceProvider extends PackageServiceProvider
         $package
             ->name('laravel-google-places')
             ->hasConfigFile()
-            ->hasViews()
-            ->hasMigration('create_laravel_google_places_table')
             ->hasCommand(LaravelGooglePlacesCommand::class);
     }
 }
