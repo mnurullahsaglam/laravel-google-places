@@ -2,9 +2,9 @@
 
 namespace Saglam\LaravelGooglePlaces;
 
+use Saglam\LaravelGooglePlaces\Commands\LaravelGooglePlacesCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Saglam\LaravelGooglePlaces\Commands\LaravelGooglePlacesCommand;
 
 class LaravelGooglePlacesServiceProvider extends PackageServiceProvider
 {
